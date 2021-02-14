@@ -9,7 +9,9 @@
   <div class="row">
     <% @cocktails.each do |cocktail| %>
       <div class="card" style="width: 18rem;">
-        <img src="https://picsum.photos/200" class="card-img-top" alt="...">
+        <%# <img src="https://picsum.photos/200" class="card-img-top" alt="..."> %>
+        <%# <%= image_tag "source", alt:"alttext" %>
+
         <div class="card-body">
             <h2><%= link_to cocktail.name, cocktail_path(cocktail), class: 'card-link' %></h2>
         </div>
