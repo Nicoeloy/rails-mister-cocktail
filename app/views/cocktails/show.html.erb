@@ -2,8 +2,11 @@
 
 <% @cocktail.doses.each do |dose| %>
   <p><%= dose.ingredient.name %></p>
-  <%= cl_image_tag @article.photo.key, alt: "A picture of a cocktail",height: 300, width: 400, crop: :fill %>
   <p><%= dose.description %></p>
+<% end %>
+
+<% @cocktail.image.each do |image| %>
+  <%= cl_image_tag image.key, height: 300, width: 400, crop: :fill %>
 <% end %>
 
 
