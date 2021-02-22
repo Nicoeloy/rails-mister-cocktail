@@ -11,8 +11,6 @@ class ReviewsController < ApplicationController
     end
   end
 
-  end
-
   private
 
   def review_params
