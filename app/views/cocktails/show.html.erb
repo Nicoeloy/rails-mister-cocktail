@@ -9,7 +9,7 @@
     <%= cl_image_tag @cocktail.photo.key, height: 300, width: 400, crop: :fill %>
   <% end %>
 
-  <div class="row">
+  <div class="row mt-4">
     <div class="col-sm-12 col-md-6">
       <h3>Recipe</h3>
       <table class="table table-bordered">
@@ -52,12 +52,14 @@
               <% counter += 1 %>
             <% end %>
           </span>
-          <%= review.content %>
+          <span class="pl-3"><%= review.content %></span>
         </li>
       <% end %>
     </ul>
   <% end %>
 
+  <br>
+  
   <%= render "reviews/new", cocktail: @cocktail, review: @review %>
 
 </div>
