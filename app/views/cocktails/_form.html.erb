@@ -1,6 +1,6 @@
 <%= simple_form_for @cocktail do |f| %>
   <%= f.input :name %>
   <%= f.input :photo, as: :file %>
-  <%= f.submit class: 'btn btn-primary' %>
-  <%= link_to 'Cancel', cocktails_path, class: 'btn btn-danger ml-2' %>
+  <%= f.submit class: 'btn btn-primary rounded-pill' %>
+  <%= link_to 'Cancel', cocktails_path, class: 'btn btn-danger ml-2 rounded-pill' %>
 <% end %>
