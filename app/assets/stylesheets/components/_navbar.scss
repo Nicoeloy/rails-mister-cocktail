@@ -1,6 +1,6 @@
 .navbar-lewagon {
   display: flex;  
-  background: #A2D0C1;
+  background: linear-gradient(#c77171, #6f79e9);
   align-items: center;
   justify-content: space-between;
   height: 70px;
@@ -12,11 +12,16 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 50px;
 }
 
 .navbar-wagon-right {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navbar-name {
+  color: white;
+  font-size: 30px;
 }
