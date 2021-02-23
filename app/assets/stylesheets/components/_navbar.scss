@@ -23,5 +23,33 @@
 
 .navbar-name {
   color: white;
-  font-size: 30px;
+  font-size: 0px;
+}
+
+.navbar-wagon-search {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px;
+  position: relative;
+}
+
+.navbar-wagon-search-input {
+  line-height: 40px;
+  color: black;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 14px;
+  outline: none;
+  opacity: 0.7;font-weight: lighter;
+}
+
+.navbar-wagon-search-btn {
+  line-height: 40px;
+  color: black;
+  border: none;
+  background: transparent;
+  position: absolute;
+  right: 14px;
+  top: -2px;
 }

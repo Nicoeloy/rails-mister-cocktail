@@ -2,7 +2,7 @@
   <div class="banner-content">
     <h1>Covicocktails</h1>
       <div class="d-flex justify-content-center">
-        <p> <span id="banner-typed-text" class="pl-4"></span> </p>
+        <p><span id="banner-typed-text" class="pl-4"></span></p>
       </div>
   </div>
 
@@ -10,7 +10,7 @@
 <div class="container">
   <div class="row">
     <% @cocktails.each do |cocktail| %>
-      <div class="col-12 col-md-6 col-lg-3 pb-4">
+      <div class="col-12 col-md-6 col-lg-3 pb-4 pt-4">
         <% if cocktail.photo.attached? %>
           <% background_url = cl_image_path cocktail.photo.key, width: 400, height: 500, crop: :fit %>
         <% else %>
