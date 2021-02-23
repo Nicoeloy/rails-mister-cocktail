@@ -22,6 +22,16 @@ class CocktailsController < ApplicationController
     end
   end
 
+  # def search
+  #   @search = true
+  #   if params[:query] == ""
+  #     @cocktails = @cocktails = Cocktail.where.not(picture: nil)
+  #   else
+  #     @cocktails = Cocktail.where("name LIKE ?", "%#{params[:query].split.map(&:capitalize).join(' ')}%")
+  #   end
+  #   render :index
+  # end
+
   private
 
   def cocktail_params
