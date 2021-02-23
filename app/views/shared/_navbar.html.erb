@@ -1,12 +1,18 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <%= link_to "/cocktails", class: "navbar-brand" do %>
-    <%= image_tag "logo_cocktail.jpg" %>
-  <% end %>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <div class="logo-title">
+    <%= link_to "/cocktails", class: "navbar-brand" do %>
+      <%= image_tag "logo_cocktail.jpg" %>
+    <% end %>
+    <span class="navbar-name">Covicocktails</span>
+  </div>
 
-    <span><%= link_to "Add a cocktail", new_cocktail_path, class: "btn btn-primary btn-lg rounded-pill" %></span>
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+    <form class="navbar-wagon-search d-flex">
+          <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary rounded-pill" type="submit">Search</button>
+    </form>
+    <span class="navbar-wagon-item navbar-wagon-button btn"><%= link_to "Add a cocktail", new_cocktail_path, class: "btn btn-primary btn-lg rounded-pill" %></span>
+  </div>
 
 </div>
