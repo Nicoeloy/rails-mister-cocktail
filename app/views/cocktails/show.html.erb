@@ -1,8 +1,9 @@
  <div class="container"> 
   <h1><%= @cocktail.name %></h1>
-  <%# <span class="back-btn btn btn-outline-light btn-lg rounded-pill"><%= link_to "Back", root_path %></span>
-  <span class="navbar-wagon-item navbar-wagon-button btn"><%= link_to "Back", root_path, class: "btn btn-outline-light btn-lg rounded-pill" %></span>
-
+  <div class="d-flex justify-content-center">
+    <span class="navbar-wagon-item navbar-wagon-button btn"><%= link_to "Back", root_path, class: "btn btn-secondary btn-lg rounded-pill" %></span>
+  </div>
+  
   <br>
 
   <% if @cocktail.photo.attached? %>
