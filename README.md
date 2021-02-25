@@ -1,6 +1,8 @@
 # README
 ## Covicocktail
 
+<br>
+
 A **cocktail manager app** built during **Le Wagon** as final challenge of the bootcamp. The app allows the users to store their favourite cocktails recipes.
 
 <br>
