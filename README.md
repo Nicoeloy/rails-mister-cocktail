@@ -16,5 +16,5 @@ This three-model app was developed according to the **MVC** pattern with the fol
 
 <br>
 
-The app has been deployed on **Heroku** and is accessible here [https://covicocktail.herokuapp.com/]
+The app has been deployed on **Heroku** and is accessible here : https://covicocktail.herokuapp.com/
 
